@@ -96,7 +96,7 @@ const Modal = {
   
       value = value.toLocaleString("pt-PT", {
         style: "currency",
-        currency: "REAL"
+        currency: "BRL"
       });
   
       return signal + value;
